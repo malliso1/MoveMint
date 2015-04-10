@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.movemint" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SalaryComparisonForm"
+            android:label="@string/title_activity_salary_comparison_form"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.movemint.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ComparisonResults"
+            android:label="@string/title_activity_comparison_results"
+            android:parentActivityName=".SalaryComparisonForm" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.movemint.SalaryComparisonForm" />
+        </activity>
+        <activity
+            android:name=".TaxationForm"
+            android:label="@string/title_activity_taxation_form"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.movemint.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TaxationResults"
+            android:label="@string/title_activity_taxation_results"
+            android:parentActivityName=".TaxationForm" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.movemint.TaxationForm" />
+        </activity>
+        <activity
+            android:name=".ProvinceInfo"
+            android:label="@string/title_activity_province_info"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.movemint.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

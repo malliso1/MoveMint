@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MoveMint</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_salary_comparison_form">Comparison Form</string>
+
+    <string-array name="provinces_array">
+        <item>Alberta</item>
+        <item>Atlantic Region</item>
+        <item>British Columbia</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland and Labrador</item>
+        <item>Nova Scotia</item>
+        <item>Ontario</item>
+        <item>Prairie Region</item>
+        <item>Prince Edward Island</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+    </string-array>
+
+    <string name="title_activity_comparison_results">Comparison Results</string>
+    <string name="title_activity_taxation_form">Taxation Form</string>
+    <string name="title_activity_taxation_results">Taxation Results</string>
+    <string name="title_activity_province_info">Province Info</string>
+
+</resources>
